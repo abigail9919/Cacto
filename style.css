@@ -4,7 +4,7 @@ body {
   font-family: garamond;
   font-size: x-large;
 }
-img body {
+header img {
   position: absolute;
   left: 0px;
   height: 50px;
