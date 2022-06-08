@@ -1,3 +1,14 @@
 body {
-  background-color: #FEFAE0
+  background-color: #FEFAE0;
+  text-align: center;
+  font-family: garamond;
+  font-size: x-large;
+}
+img body {
+  position: absolute;
+  left: 0px;
+}
+header {
+  background-color: #CCD5AE
+    
 }
