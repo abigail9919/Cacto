@@ -7,23 +7,75 @@ body {
 header img {
   position: absolute;
   left: 0px;
-  height: 130px;
-  width: 130px;
+  height: 180px;
+  width: 180px;
+  z-index: 1;
+  border: 2px solid black;
+  box-shadow: 0px 1px 4px gray;
 }
 header {
   position: fixed;
   width: 100%;
   left: 0px;
   top: 0px;
-  padding: 0px;
   border-bottom: 2px solid black;
   box-shadow: 0px 1px 4px gray;
+  height: 100px;
 }
 .p1 {
   font-family: "Courier New";
-  font-size: xx-large;
+  font-size: xxx-large;
 }
 .p2 {
-  font-size: large;
+  font-size: x-large;
   font-family: "Courier New";
+}
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #FEFAE0;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  top: 0px; /*make this 180*/
+  left: 0px;
+}
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+.sidebar a.active {
+  background-color: #D4A373;
+  color: white;
+}
+.sidebar a:hover:not(.active) {
+  background-color: #CCD5AE;
+  color: black;
+}
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
 }
