@@ -80,23 +80,33 @@ div.content {
 .intro p {
   position: relative;
   text-align: center;
-  top: 250px;
-  width: 500px;
+  top: 180px; 
+  width: 600px;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid transparent; /* The typwriter cursor */
+  border-right: .15em clear; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em; /* Adjust as needed */
   animation: 
-    typing 4.5s steps(40, end),
+    typing 2.5s steps(40, end),
     blink-caret .75s step-end infinite;
 }
 /* The typing effect */
 @keyframes typing {
   from { width: 0 }
-  to { width: 100% }
+  to { width: 600px }
 }
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: transparent; }
+  50% { border-color: black; }
+}
+.article {
+  position: absolute;
+  top: 250px;
+  text-align: center;
+  background-color: purple;
+  border: 4px solid blue;
+  width: 300px;
+  right: auto;
+  left: auto;
 }
