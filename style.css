@@ -7,8 +7,15 @@ body {
 img body {
   position: absolute;
   left: 0px;
+  height: 50px;
+  width: 50px;
 }
 header {
-  background-color: #CCD5AE
-    
+  background-color: #CCD5AE;
+  position: fixed;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  height: 50px;
+  padding: 5px;
 }
