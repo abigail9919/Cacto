@@ -7,11 +7,9 @@ body {
 header img {
   position: absolute;
   left: 0px;
-  height: 180px;
-  width: 180px;
+  height: 200px;
+  width: 200px;
   z-index: 1;
-  border: 2px solid black;
-  box-shadow: 0px 1px 4px gray;
 }
 header {
   position: fixed;
