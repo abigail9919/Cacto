@@ -36,7 +36,7 @@ header {
   position: fixed;
   height: 100%;
   overflow: auto;
-  top: 200px; /*make this 180*/
+  top: 202px; /*make this 180*/
   left: 0px;
 }
 .sidebar a {
