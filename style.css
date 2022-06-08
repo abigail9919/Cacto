@@ -37,6 +37,7 @@ header {
   overflow: auto;
   top: 204px; /*make this 180*/
   left: 0px;
+  box-shadow: 0px 1px 4px gray;
 }
 .sidebar a {
   display: block;
