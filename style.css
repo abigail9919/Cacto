@@ -82,6 +82,7 @@ div.content {
   text-align: center;
   top: 180px; 
   width: 600px;
+  height: 30px;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em clear; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
@@ -100,13 +101,10 @@ div.content {
   from, to { border-color: transparent }
   50% { border-color: black; }
 }
-.article {
-  position: absolute;
+article {
+  position: relative;
   top: 250px;
   text-align: center;
-  background-color: purple;
-  border: 4px solid blue;
-  width: 300px;
-  right: auto;
-  left: auto;
+  width: 500px;
+  margin: auto;
 }
