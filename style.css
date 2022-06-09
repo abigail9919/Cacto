@@ -121,3 +121,14 @@ article {
   width: 500px;
   margin: auto;
 }
+aside {
+  display: flex;
+  flex-direction: horizontal;
+  flex-wrap: wrap;
+  position: relative;
+  top: 250px;
+  text-align: center;
+  width: 1000px;
+  margin: auto;
+  padding: 50px;
+}
