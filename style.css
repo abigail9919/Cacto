@@ -126,9 +126,13 @@ aside {
   flex-direction: horizontal;
   flex-wrap: wrap;
   position: relative;
-  top: 250px;
+  top: 200px;
   text-align: center;
   width: 1000px;
   margin: auto;
   padding: 50px;
+}
+aside img {
+ width: 150px;
+ height: 250px;
 }
