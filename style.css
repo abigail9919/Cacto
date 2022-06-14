@@ -66,6 +66,10 @@ div.content {
     height: auto;
     position: relative;
     top: 102px;
+    overflow-x: hidden;
+  }
+  .sidebar a {
+    width: 100%;
   }
   .sidebar img {
     height: 0px;
@@ -83,6 +87,12 @@ div.content {
 }
 body {
   overflow-x: hidden;
+}
+.categories {
+  left: 50px;
+}
+.categories div {
+  left: auto;
 }
 
 /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
