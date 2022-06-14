@@ -141,3 +141,6 @@ article {
   color: black;
   text-align: center;
 }
+.categories a:hover {
+  text-decoration: underline;
+}
