@@ -197,7 +197,7 @@ article {
     height: 250px;
     margin: 80px;
     perspective: 1000px;
-    border-radius: 15px;
+    border: 2px solid black;
 }
 .flip-card-inner {
     position: relative;
@@ -221,4 +221,4 @@ article {
     color: black;
     text-align: center;
     transform: rotateY(180deg);
-    border-radius: 15px;
+    border: 2px solid black;
