@@ -129,7 +129,6 @@ body {
     typing 2.5s steps(40, end),
     blink-caret .75s step-end infinite;
 }
-/* The typing effect */
 @keyframes typing {
   from { width: 0 }
   to { width: 600px }
@@ -197,7 +196,6 @@ article {
     height: 250px;
     margin: 80px;
     perspective: 1000px;
-    border: 2px solid black;
 }
 .flip-card-inner {
     position: relative;
@@ -221,4 +219,3 @@ article {
     color: black;
     text-align: center;
     transform: rotateY(180deg);
-    border: 2px solid black;
