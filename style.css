@@ -75,8 +75,6 @@ div.content {
     height: 0px;
     width: 0px;
   }
-  .sidebar a {float: left;}
-  div.content {margin-left: 0;}
 }
 .intro {
   left: auto;
@@ -95,7 +93,7 @@ body {
   left: auto;
 }
 
-/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+
 @media screen and (max-width: 400px) {
   .sidebar a {
     text-align: center;
@@ -106,7 +104,7 @@ body {
     top: 102px;
   }
   article {
-    width: 100%;
+    width: 200px;
   }
   header {
     height: 30px;
@@ -172,4 +170,14 @@ article {
 }
 .categories a:hover {
   text-decoration: underline;
+}
+.BackButton {
+  position: relative;
+  top: 110px;
+  right: 500px;
+}
+.BackButton a {
+  text-decoration: underline;
+  color: black;
+  
 }
