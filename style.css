@@ -81,7 +81,10 @@ div.content {
   right: auto;
   text-align: center;
   width: auto;
-  margin: 0px;
+  margin: 0px; 
+}
+.intro p {
+  left: 50px;
 }
 body {
   overflow-x: hidden;
@@ -197,6 +200,9 @@ article {
     margin: 80px;
     perspective: 1000px;
 }
+.flip-card img {
+  border: 2px solid black;
+}
 .flip-card-inner {
     position: relative;
     width: 100%;
@@ -219,3 +225,5 @@ article {
     color: black;
     text-align: center;
     transform: rotateY(180deg);
+    border: 2px solid black;
+}
