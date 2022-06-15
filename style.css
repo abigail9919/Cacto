@@ -179,9 +179,11 @@ article {
   right: 500px;
 }
 .BackButton a {
-  text-decoration: underline;
   color: black;
-  
+  text-decoration: none;
+}
+.BackButton a:hover {
+  text-decoration: underline;
 }
 .wrapper {
     display:flex;
