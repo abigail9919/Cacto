@@ -156,7 +156,7 @@ article {
   width: 1100px;
   height: auto;
   left: 220px;
-}
+} 
 .categories img {
   width: 200px;
   height: 250px;
@@ -181,3 +181,44 @@ article {
   color: black;
   
 }
+.wrapper {
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: relative;
+    top: 200px;
+    width: 1100px;
+    left: 220px;
+}
+.flip-card {
+    background-color:transparent;
+    width: 200px;
+    height: 250px;
+    margin: 80px;
+    perspective: 1000px;
+    border-radius: 15px;
+}
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility:hidden;
+}
+.flip-card-back {
+    background: #CCD5AE;
+    color: black;
+    text-align: center;
+    transform: rotateY(180deg);
+    border-radius: 15px;
